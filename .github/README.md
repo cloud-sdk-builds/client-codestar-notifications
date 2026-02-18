@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-codestar-notifications`](https://www.npmjs.com/package/@aws-sdk/client-codestar-notifications/v/3.37.0).
+[`@aws-sdk/client-codestar-notifications`](https://www.npmjs.com/package/@aws-sdk/client-codestar-notifications/v/3.38.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.37.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.38.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-LYZdqdh0Gi2exiUwXEQmcBLclkiIPm3uXp0R7iYP3y8dTni4GwndiijzfMubY31C
+sha384-A+mS4GMmM6IW20qCvnCOj8/e5waKfxANw+HAhkV1V7OJhV7E2ZRtKN0WxNIz7Tja
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-codestar-notifications": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.37.0/index.min.mjs"
+            "@aws-sdk/client-codestar-notifications": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.38.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.37.0/index.min.mjs": "sha384-LYZdqdh0Gi2exiUwXEQmcBLclkiIPm3uXp0R7iYP3y8dTni4GwndiijzfMubY31C"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.38.0/index.min.mjs": "sha384-A+mS4GMmM6IW20qCvnCOj8/e5waKfxANw+HAhkV1V7OJhV7E2ZRtKN0WxNIz7Tja"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-codestar-notifications": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.37.0/index.min.mjs"
+                        "@aws-sdk/client-codestar-notifications": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.38.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.37.0/index.min.mjs": "sha384-LYZdqdh0Gi2exiUwXEQmcBLclkiIPm3uXp0R7iYP3y8dTni4GwndiijzfMubY31C"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-codestar-notifications@3.38.0/index.min.mjs": "sha384-A+mS4GMmM6IW20qCvnCOj8/e5waKfxANw+HAhkV1V7OJhV7E2ZRtKN0WxNIz7Tja"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.37.0`)
+* Always pin to a specific version (`@3.38.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-codestar-notifications/blob/refs/tags/3.37.0/LICENSE
+https://github.com/cloud-sdk-builds/client-codestar-notifications/blob/refs/tags/3.38.0/LICENSE
 ```
 
 ---
